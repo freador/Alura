@@ -1,5 +1,5 @@
 
-public class Funcionario {
+abstract class Funcionario {
 	private String nome;
 	protected double salario;
 	/**

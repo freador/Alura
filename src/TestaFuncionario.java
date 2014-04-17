@@ -1,4 +1,3 @@
-
 public class TestaFuncionario {
 
 	/**
@@ -6,8 +5,18 @@ public class TestaFuncionario {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Funcionario joao = new Funcionario();
+
+		Gerente merlim = new Gerente();
+		merlim.setSalario(2000.00);
+		merlim.cobraEntrega();
+
+		System.out.println(merlim.getBonus());
+
+		TotalizadorDeBonus totalizadorDeBonus = new TotalizadorDeBonus();
+		totalizadorDeBonus.adiciona(merlim);
+
+
+		System.out.println(totalizadorDeBonus.getTotal());
 
 	}
 
