@@ -2,6 +2,7 @@
 abstract class Funcionario {
 	private String nome;
 	protected double salario;
+	
 	/**
 	 * @param args
 	 */
@@ -19,5 +20,7 @@ abstract class Funcionario {
 	public String getNome(){
 		return nome;
 	}
+
+
 
 }

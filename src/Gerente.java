@@ -1,5 +1,5 @@
 
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Aunteticavel {
 	
 	/**
 	 * @param args
@@ -10,6 +10,12 @@ public class Gerente extends Funcionario {
 	
 	public void cobraEntrega(){
 		System.out.println("Está Pronto?");
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
