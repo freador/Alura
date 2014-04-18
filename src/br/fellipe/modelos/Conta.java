@@ -1,3 +1,4 @@
+package br.fellipe.modelos;
 public class Conta {
 	private int saldo;
 	private String nome;

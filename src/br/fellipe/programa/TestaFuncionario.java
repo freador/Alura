@@ -1,3 +1,8 @@
+package br.fellipe.programa;
+import br.fellipe.modelos.Gerente;
+import br.fellipe.modelos.TotalizadorDeBonus;
+
+
 public class TestaFuncionario {
 
 	/**
@@ -14,7 +19,6 @@ public class TestaFuncionario {
 
 		TotalizadorDeBonus totalizadorDeBonus = new TotalizadorDeBonus();
 		totalizadorDeBonus.adiciona(merlim);
-
 
 		System.out.println(totalizadorDeBonus.getTotal());
 

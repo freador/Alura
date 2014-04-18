@@ -1,3 +1,4 @@
+package br.fellipe.modelos;
 
 public class Gerente extends Funcionario implements Aunteticavel {
 	

@@ -1,3 +1,6 @@
+package br.fellipe.programa;
+import br.fellipe.modelos.Conta;
+
 public class TestaConta {
 
 	/**

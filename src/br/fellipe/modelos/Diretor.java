@@ -1,3 +1,4 @@
+package br.fellipe.modelos;
 
 public class Diretor extends Funcionario implements Aunteticavel {
 	@Override

@@ -1,3 +1,5 @@
+package br.fellipe.modelos;
+
 public class TotalizadorDeBonus {
 
 	private double total = 0;

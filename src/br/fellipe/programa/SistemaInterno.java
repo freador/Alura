@@ -1,3 +1,6 @@
+package br.fellipe.programa;
+import br.fellipe.modelos.Aunteticavel;
+
 
 public class SistemaInterno {
 	

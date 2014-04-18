@@ -1,3 +1,4 @@
+package br.fellipe.modelos;
 
 public class Cliente implements Aunteticavel {
 

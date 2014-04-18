@@ -1,3 +1,4 @@
+package br.fellipe.modelos;
 
 abstract class Funcionario {
 	private String nome;

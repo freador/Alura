@@ -1,3 +1,4 @@
+package br.fellipe.modelos;
 
 public abstract class FuncionarioAutenticavel extends Funcionario {
 	private int senha;
