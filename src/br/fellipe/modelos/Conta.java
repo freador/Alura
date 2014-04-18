@@ -1,5 +1,5 @@
 package br.fellipe.modelos;
-public class Conta {
+public class Conta implements Comparable<Conta> {
 	private int saldo;
 	private String nome;
 	private int agencia;
@@ -11,6 +11,14 @@ public class Conta {
 
 	}
 
+	void saca(double valor){
+		this.saldo -=valor;
+	}
+	
+	public synchronized void deposita(double valor){
+			this.saldo += valor;
+	}
+	
 	public int getSaldo() {
 		return saldo;
 	}
@@ -47,6 +55,16 @@ public class Conta {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public int compareTo(Conta outra ) {
+		// TODO Auto-generated method stub
+		if( this.saldo < outra.saldo ) return -1;
+		
+		if( this.saldo > outra.saldo ) return 1;
+		
+		return 0;
 	}
 
 }
